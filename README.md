@@ -2,9 +2,25 @@
 
 Author of thesis: Fazakas Edina-Szylvia
 
-Coordomated by: Assoc. Prof. Dr. Ágoston 
+Coordinated by: Assoc. Prof. Dr. Ágoston Róth
 
 This program is part of the final examination for bachelor degree studies at Faculty of Mathematics and Computer Sience, Babeș-Bolyai University Cluj-Napoca.
+
+Abstract
+--------
+
+Least squares regression curves and surfaces are commonly used to approximate the shape of disordered noisy point clouds, in order to study phenomena related to Statistics, Geometric Modeling, Physics,
+Astronomy, Artificial Intelligence or Numerical Analysis.
+For the approximation of detailed point clouds, regression curves and surfaces are usually described
+by basis functions providing local deformation, such as normalized polynomial B-spline basis functions
+determined by a not necessarily uniform knot vector, which are also used to generate non-uniform rational B-spline curves/surfaces used as the de facto standard in current Computer-Aided Geometric Design
+systems.
+Using the attached OpenGL-, OpenMP-, Qt SDK- and C++-based, hardware-accelerated, multithreaded, platform-independent and interactive application, we not only produced classical regression
+B-spline curves and surfaces that approximate disordered noisy point clouds, but we have also optimized/beautified their shape, by minimizing the weighted sum of additional quadratic energy functionals
+that depend on the total squared length variation of first- and higher-order (partial) derivatives defined
+along the regression curves/surfaces that have to be generated.
+
+![program_screenshot.png](program_screendshot.png)
 
 Pre-compiled Windows binaries
 -----------------------------
@@ -44,7 +60,7 @@ Build the project in Release mode
 
 There will be created a build folder next to the RegressionBSplineCurvesAndSurfaces folder
 
-Copy the provided folders Models, Shaders and Point clouds into this build folder
+Copy the provided folders "Models", "Shaders", "B-spline models" and "Point clouds" into this build folder
 
 Run the project
 
